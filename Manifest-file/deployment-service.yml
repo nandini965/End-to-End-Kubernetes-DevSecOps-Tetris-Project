@@ -18,6 +18,8 @@ spec:
         image: sriram8788/tetrisv2:61
         ports:
         - containerPort: 3000
+      imagePullSecrets:
+        - name: docker-hub-secret
 ---
 apiVersion: v1
 kind: Service
