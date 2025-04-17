@@ -4,3 +4,8 @@ regions:
 
 filters:
   tag:Name: jenkins
+
+hostnames:
+  - private-ip-address
+
+strict: False
