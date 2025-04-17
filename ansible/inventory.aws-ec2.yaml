@@ -1,5 +1,6 @@
 plugin: amazon.aws.aws_ec2
-region:
+regions:
   - ap-south-1
+
 filters:
-  "tag:name": "jenkins"
+  tag:Name: jenkins
