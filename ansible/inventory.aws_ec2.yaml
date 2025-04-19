@@ -4,7 +4,7 @@ regions:
 filters:
   instance-state-name: running
   tag:Name:
-    - jenkins-instance   # Update to match your tag
+    - jenkins  # Update to match your tag
 hostnames:
   - public_ip_address
 keyed_groups:
