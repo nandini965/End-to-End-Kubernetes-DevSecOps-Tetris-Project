@@ -6,7 +6,7 @@ filters:
   tag:Name:
     - jenkins  # Update to match your tag
 hostnames:
-  - jenkins
+  - 13.232.235.238
 keyed_groups:
   - key: tags.Name
     prefix: tag
