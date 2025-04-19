@@ -1,8 +1,6 @@
----
 - name: Install Jenkins on EC2
-  hosts: jenkins
+  hosts: tag_jenkins
   become: yes
-  become_method: sudo
 
   tasks:
     - name: Install Java (Jenkins requirement)
