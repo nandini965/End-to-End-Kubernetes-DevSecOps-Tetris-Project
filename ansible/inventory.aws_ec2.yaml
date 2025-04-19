@@ -2,10 +2,12 @@ plugin: amazon.aws.aws_ec2
 regions:
   - ap-south-1  # your AWS region
 filters:
+  instance-state-name: running
   tag:Name:
-    - jenkins
+    - jenkins-instance   # Update to match your tag
+hostnames:
+  - public_ip_address
 keyed_groups:
   - key: tags.Name
     prefix: tag
-hostnames:
-  - public_ip_address
+
