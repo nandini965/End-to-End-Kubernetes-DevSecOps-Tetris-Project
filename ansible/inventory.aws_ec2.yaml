@@ -6,7 +6,10 @@ filters:
   tag:Name:
     - jenkins  # Update to match your tag
 hostnames:
-  - jenkins
+   jenkins:
+     ansible_ssh_private_key_file: /Users/HP/Downloads/demo.pem
+
+
 keyed_groups:
   - key: tags.Name
     prefix: tag
