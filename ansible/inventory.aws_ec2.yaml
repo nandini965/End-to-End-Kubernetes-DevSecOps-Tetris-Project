@@ -1,0 +1,11 @@
+plugin: amazon.aws.aws_ec2
+regions:
+  - ap-south-1
+
+filters:
+  tag:Name: jenkins
+
+hostnames:
+  - private-ip-address
+
+strict: False
