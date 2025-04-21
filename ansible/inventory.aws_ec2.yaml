@@ -1,0 +1,14 @@
+plugin: amazon.aws.aws_ec2
+regions:
+  - ap-south-1
+
+filters:
+  instance-state-name: running
+  tag:Name:
+    - jenkins
+
+  hostnames:
+    - 13.232.235.238
+keyed_groups:
+  - key: tags.Name
+    prefix: tag
