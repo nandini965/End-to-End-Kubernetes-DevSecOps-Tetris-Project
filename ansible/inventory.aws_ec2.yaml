@@ -5,10 +5,11 @@ regions:
 filters:
   instance-state-name: running
   tag:Name:
-   - jenkins
+    - jenkins
 
 hostnames:
-  - 13.232.235.238
+  - public-ip-address
+
 keyed_groups:
   - key: tags.Name
     prefix: tag
