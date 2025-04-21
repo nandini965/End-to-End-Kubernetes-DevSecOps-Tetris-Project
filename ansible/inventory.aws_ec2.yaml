@@ -8,7 +8,7 @@ filters:
     - jenkins
 
 hostnames:
-  - 13.232.235.238   # or 'dns-name' if you prefer DNS
+  - 13.232.235.238
 
 keyed_groups:
   - key: tags.Name
