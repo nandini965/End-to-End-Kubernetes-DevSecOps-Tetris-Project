@@ -7,8 +7,8 @@ filters:
   tag:Name:
    - jenkins
 
-  hostnames:
-    - 13.232.235.238
+hostnames:
+  - 13.232.235.238
 keyed_groups:
   - key: tags.Name
     prefix: tag
