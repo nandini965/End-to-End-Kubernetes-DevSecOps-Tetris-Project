@@ -4,4 +4,4 @@ regions:
   - ap-south-1
 
 filters:
-  "tag:Name": "Jenkins-server"
+  "tag:Name": "Jenkins_server"
