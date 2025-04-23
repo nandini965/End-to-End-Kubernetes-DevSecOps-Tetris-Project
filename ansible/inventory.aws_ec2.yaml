@@ -4,7 +4,7 @@ regions:
   - ap-south-1
 
 filters:
- "tag:Name": "jenkins"
+  tag:Name: jenkins
 
 hostnames:
   - public-ip-address
@@ -12,3 +12,5 @@ hostnames:
 keyed_groups:
   - key: tags.Name
     prefix: tag
+
+strict: False
