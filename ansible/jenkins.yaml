@@ -1,5 +1,5 @@
 - name: Install Jenkins on EC2
-  hosts: jenkins
+  hosts: jenkins-server
   become: yes
 
   tasks:
