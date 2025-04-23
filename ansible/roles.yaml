@@ -5,5 +5,5 @@
 - src: hispanico.letsencrypt-nginx-revproxy
 - src: geerlingguy.mysql
 - src: geerlingguy.docker
-- src: geerlingguy..ansible
+- src: geerlingguy.ansible
 - src: geerlingguy.pip
